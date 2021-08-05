@@ -15,7 +15,7 @@
 </style>
 
 <div class="centre-column">
-    <p>Are you sure you want to delete {{item}} ?</p>
+    <h4>Are you sure you want to delete {{item}} ?</h4>
     <form method = "POST" action ="">
         {% csrf_token %}
         <input class="btn btn-warning btn-sm"type = "submit" name ="Confirm">
